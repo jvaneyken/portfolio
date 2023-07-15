@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
+*, ::after, ::before {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -154,6 +159,105 @@ header.p-section {
 
 .btn-primary {
   margin-bottom: 10px;
+}
+
+.project-tech {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.project-tech > span {
+  text-decoration: underline;
+}
+
+#skills {
+  /* border: 1px solid red; */
+  margin-bottom: 600px;
+}
+
+.experience__icon {
+  position: relative;
+  margin-top: 100px;
+  float: left;
+  width: 20%;
+  height: 75px;
+  background-size: 75px 75px;
+  background-position: 50%;
+}
+
+.experience__icon--javascript {
+  background-image: url(img/javascript.svg);
+}
+
+.experience__icon--typescript {
+  background-image: url(img/typescript.svg);
+}
+
+.experience__icon--html5 {
+  background-image: url(img/html5.svg);
+
+}
+
+.experience__icon--css3 {
+  background-image: url(img/css3.svg);
+}
+
+.experience__icon--ruby {
+  background-image: url(img/ruby-lang-icon.svg);
+}
+
+.experience__icon--rails {
+  background-image: url(img/ruby-on-rails.svg);
+}
+
+.experience__icon--react {
+  background-image: url(img/react-2.svg);
+}
+
+.experience__icon--redux {
+  background-image: url(img/redux.svg);
+}
+
+.experience__icon--webpack {
+  background-image: url(img/webpack.svg);
+}
+
+.experience__icon--git {
+  background-image: url(img/visual-studio-team-services-git-repository.svg);
+}
+
+.experience__icon--github {
+  background-image: url(img/github.svg);
+}
+
+.experience__icon--postgresql {
+  background-image: url(img/postgresql.svg);
+}
+
+.experience__icon--mongodb {
+  background-image: url(img/mongodb.svg);
+}
+
+.experience__icon--express {
+  background-image: url(img/expressjs-ar21.svg);
+}
+
+.experience__icon--node {
+  background-image: url(img/nodejs.svg);
+}
+
+
+
+.experience__icon-description {
+  display: block;
+  position: absolute;
+  font-size: 19px;
+  font-weight: 400;
+  left: 50%;
+  bottom: -50px;
+  transform: translate(-50%, 0);
+  width: 200px;
+  text-align: center;
 }
 
 /* .mt-5 {
